@@ -1,4 +1,21 @@
 body {
-    background-color: black;
-    color : white;
+    background-color: violet;
+    font-size: 30px;
+}
+
+label {
+    display: block;
+    margin-right: 130px;
+}
+
+input[type = "text"],input[type="password"] {
+    margin-bottom : 20px;   
+    height : 20px;
+    width : 250px;
+}
+
+input[type = "submit"] {
+    display:flex;
+    margin-left :45%;
+    width :100px;
 }
